@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>YaDebilaKusok</title>
+   <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+   <div class="container">
+      <input type="text" class="input_name" placeholder="Введіть ім'я"
+         oninput="this.value=this.value.replace(/[^a-zA-Zа-яА-ЯїЇіІ]/g,'');">
+      <input type="text" class="input_surn" placeholder="Введіть Прізвище"
+         oninput="this.value=this.value.replace(/[^a-zA-Zа-яА-ЯїЇіІ]/g,'');">
+      <input type="date" class="date_birthday" placeholder="Введіть дату народження">
+      <button type="button" class="button_push">PUSH</button>
+      <div class="showhtml"></div>
+   </div>
+   <script src="./js/script.js">
+   </script>
+</body>
+
+</html>
